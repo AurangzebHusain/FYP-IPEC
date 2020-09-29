@@ -1,0 +1,31 @@
+.checkoutproduct{
+    margin: 10px 0;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:whitesmoke;
+    z-index: 1;
+
+    img{
+        padding: 10px;
+        object-fit: contain;
+        width: 180px;
+        height: 180px;
+
+    }
+    &__infor{
+        display:flex;
+        flex-direction: column;   
+    }
+
+    button{
+        margin:0 auto;
+        background-color: #f0c14b;
+        border:1px solid;
+        margin-top: 10px;
+        border-color:  #a88734 #9c7e31 #846a29;
+        color:#111
+    }
+}
